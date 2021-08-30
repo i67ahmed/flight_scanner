@@ -27,9 +27,9 @@ require('./config/passport')(passport);
 app.get('/', (req, res) => res.send('Hello World!'));
 
 //use routes
-app.use('/api/users', users);
-app.use('/api/profile', profile);
-app.use('/api/flights', flights);
+// app.use('/api/users', users);
+// app.use('/api/profile', profile);
+// app.use('/api/flights', flights);
 
 
 const port = 5000;
